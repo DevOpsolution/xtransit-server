@@ -3,7 +3,7 @@
 module.exports = () => {
   const config = {};
 
-  config.xtransitManager = '';
+  config.xtransitManager = process.env.XTRANSIT_MANAGER_URL;
 
   config.agentKey = Symbol('XTRANSIT::ID');
 

@@ -1,0 +1,9 @@
+node_modules
+Dockerfile
+logs
+.eslintignore
+.eslintrc
+.gitignore
+.dockerignore
+config/env
+config/config.local.js
